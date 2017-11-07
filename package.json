@@ -1,0 +1,15 @@
+{
+  "name": "ckeditor5-dumpdata",
+  "version": "1.0.0",
+  "description": "This is a plugin for ckeditor5. It dumps data to the console using editor.getData. It provides a toolbar component named 'showHtml'.",
+  "main": "src/dumpdata.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^1.0.0-alpha.1",
+    "@ckeditor/ckeditor5-ui": "^1.0.0-alpha.1"
+  }
+}
