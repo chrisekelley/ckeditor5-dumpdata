@@ -7,7 +7,7 @@ export default class Dumpdata extends Plugin {
   init() {
     const editor = this.editor;
 
-    editor.ui.componentFactory.add( 'showHtml', locale => {
+    editor.ui.componentFactory.add( 'dumpdata', locale => {
       const view = new ButtonView( locale );
 
       view.set( {
